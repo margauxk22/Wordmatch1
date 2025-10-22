@@ -20,7 +20,7 @@ public class Main {
         System.out.println(w.scoreGuess("c"));
         System.out.println();
 
-        // concatenation
+        //concatenation
         w = new WordMatch("concatenation");
         System.out.println("Word: " + w.returnSecret());
         System.out.println(w.scoreGuess("ten"));
