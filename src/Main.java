@@ -10,7 +10,7 @@ public class Main {
         System.out.println(w.scoreGuess("mississippi"));
         System.out.println();
 
-        // aaaabb
+        // aaaab
         w = new WordMatch("aaaabb");
         System.out.println("Word: " + w.returnSecret());
         System.out.println(w.scoreGuess("a"));
